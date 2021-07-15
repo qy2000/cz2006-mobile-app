@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "BeFit",
+    "description": "Healthy living for all",
+    "slug": "befit-cz2006",
+    "owner": "joeyyy",
+    "privacy": "unlisted",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.7.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6C24AA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.qy2000.rnmaterialkitfree",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyC3-Hy4oFI1XEjZqH1_4UzkBwFoAf4ppqQ" }   
+     },
+     "useNextNotificationsApi": true
+    },
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "facebookScheme": "fb437698377529776",
+    "facebookAppId": "437698377529776",
+    "facebookDisplayName": "Befit"
+  }
+}

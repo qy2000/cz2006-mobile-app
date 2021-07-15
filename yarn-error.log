@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\chloe\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @materiial-ui/core
+
+PATH: 
+  C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Users\chloe\anaconda3;C:\Users\chloe\anaconda3\Library\mingw-w64\bin;C:\Users\chloe\anaconda3\Library\usr\bin;C:\Users\chloe\anaconda3\Library\bin;C:\Users\chloe\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chloe\AppData\Local\Microsoft\WindowsApps;C:\Users\chloe\AppData\Local\GitHubDesktop\bin;C:\Users\chloe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chloe\.dotnet\tools;C:\Users\chloe\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@materiial-ui%2fcore: Not found
+      at Request.params.callback [as _callback] (C:\Users\chloe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\chloe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\chloe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\chloe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "rn-material-kit-free",
+    "version": "1.7.0",
+    "description": "Material Kit React Native. Coded by Creative Tim",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "cross-env REACT_EDITOR=code expo start",
+      "android": "cross-env REACT_EDITOR=code expo start --android",
+      "ios": "cross-env REACT_EDITOR=code expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/compat": "~5.1.25",
+      "@react-navigation/drawer": "~5.8.2",
+      "@react-navigation/material-top-tabs": "^5.3.14",
+      "@react-navigation/native": "~5.5.0",
+      "@react-navigation/stack": "~5.4.1",
+      "expo": "^39.0.0",
+      "expo-asset": "~8.2.0",
+      "expo-font": "~8.3.0",
+      "expo-linear-gradient": "~8.3.0",
+      "expo-location": "^9.0.1",
+      "galio-framework": "~0.7.1",
+      "react": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+      "react-native-dropdown-picker": "^4.0.2",
+      "react-native-elements": "^3.2.0",
+      "react-native-gesture-handler": "~1.7.0",
+      "react-native-maps": "^0.27.1",
+      "react-native-modal-dropdown": "git+https://github.com/siemiatj/react-native-modal-dropdown.git",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-safe-area-context": "3.1.4",
+      "react-native-screens": "~2.10.1",
+      "react-native-tab-view": "^2.15.2",
+      "react-native-vector-icons": "^8.1.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^8.3.0",
+      "cross-env": "~7.0.0",
+      "expo-cli": "~3.11.7",
+      "jest-expo": "^39.0.0"
+    },
+    "bugs": {
+      "url": "https://github.com/creativetimofficial/material-kit-react-native/issues"
+    },
+    "homepage": "https://demos.creative-tim.com/material-kit-react-native/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
