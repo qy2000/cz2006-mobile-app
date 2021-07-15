@@ -1,10 +1,12 @@
-# BeFit Health App - NTU CZ2006
+# BeFit Health App - NTU CZ2006 Group Project
 <img src="https://github.com/cmxwc/CZ2006-BeFit/blob/master/assets/images/icon.png" width="300" height="300">
 
 ## About 
 
 ### Mission Statement
 A mobile application, BeFit, which encourages working Singaporean adults to live healthily by encouraging healthy lifestyle choices and providing easy access to such information. It aims to lower the mental barriers and serve as a convenient platform for users to pursue a healthy lifestyle. 
+
+Designed and developed in a team of 5.
 
 ### Use Case Diagram
 ![Use Case Diagram](https://github.com/cmxwc/CZ2006-BeFit/blob/master/assets/images/CZ2006%20Use%20Case%20Diagram.png)
