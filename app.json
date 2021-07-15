@@ -30,7 +30,7 @@
     "android": {
       "package": "com.qy2000.rnmaterialkitfree",
       "config": {
-        "googleMaps": { "apiKey": "AIzaSyC3-Hy4oFI1XEjZqH1_4UzkBwFoAf4ppqQ" }   
+        "googleMaps": { "apiKey":  "${{ secrets.GOOGLEMAPSAPIKEY }}" }   
      },
      "useNextNotificationsApi": true
     },
